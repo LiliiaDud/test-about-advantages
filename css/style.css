@@ -1,0 +1,286 @@
+/* reset 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color:  #030a06;
+    background-color: #ebf8ed;
+    margin: 0 auto;
+}
+
+ul, 
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0; 
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ 
+
+.container {
+    max-width: 320px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* about */
+.section-about {
+    background-image: 
+        url(/images/about/about_mob.jpg);
+        margin: 0;
+        width: 100%;
+        padding: 64px 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+}
+
+@media screen and (min-resolution: 2x) {
+    .section-about {
+        background-image: 
+            url(/images/about/about_mob@2x.jpg);
+    }
+}
+
+.about-container {
+    max-width: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.about-main-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.about-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+/*
+.advantages-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}*/
+.section-advantages {
+ 
+} 
+
+.advantages-container {
+    max-width: 288px;
+}
+
+.advantages-info {
+    margin-bottom: 48px;
+}
+
+.advantages-subtitle {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.advantages-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.advantages-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.advantages-item {
+    max-width: 288px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.advantages-image {
+    border-radius: 32px;
+    width: 100%;
+}
+
+.advantages-picture-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    margin-bottom: 4px;
+}
+
+.advantages-picture-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .section-about {
+        background-image: 
+            url(/images/about/about_tablet.jpg);
+        padding: 80px 0;
+    }
+    
+    @media screen and (min-resolution: 2x) {
+        .section-about {
+            background-image: 
+                url(/images/about/about_tablet@2x.jpg);
+        }
+    }
+
+    .about-main-title {
+        margin-bottom: 16px;
+    }
+    
+    .about-subtitle {
+        margin-bottom: 24px;
+    }
+    
+    .about-text {
+        font-size: 18px;
+        max-width: 573px;
+    }
+
+    .advantages-container {
+        max-width: 704px;
+    }
+
+    .advantages-info {
+        margin-bottom: 32px;
+    }
+
+    .advantages-list {
+        row-gap: 24px;
+    }
+    
+    .advantages-item {
+        max-width: 340px;
+        gap: 32px;
+    }
+    .advantages-item:nth-child(3) {
+        max-width: 704px;
+      
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 64px;
+    }
+
+    .section-about {
+        background-image: 
+            url(/images/about/about_desk.jpg);
+        padding: 112px 0 94px 0;
+    }
+    
+        @media screen and (min-resolution: 2x) {
+            .section-about {
+                background-image: 
+                    url(/images/about/about_desk@2x.jpg);
+            }
+        }
+
+    .about-subtitle {
+        font-size: 56px;
+        max-width: 629px;
+    }  
+
+    .advantages-container {
+        
+    }
+
+    .advantages-info {
+        margin-bottom: 80px;
+    }
+    
+    .advantages-list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 24px;
+       
+    }
+
+    .advantages-item {
+        max-width: 421px;
+        width: calc((100% - 48px) / 3);
+    }
+
+    .advantages-item:nth-child(3) {
+        max-width: 421px;
+    }
+}
