@@ -216,6 +216,10 @@ img {
         max-width: 704px;
     }
 
+    .advantages-text {
+        font-size: 18px;
+    }
+
     .advantages-info {
         margin-bottom: 32px;
     }
@@ -263,6 +267,7 @@ img {
     }
 
     .advantages-info {
+        max-width: 768px;
         margin-bottom: 80px;
     }
     
