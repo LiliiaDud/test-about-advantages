@@ -64,9 +64,11 @@ img {
 .about-container {
     max-width: 288px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
+    text-align: center;
+    height: 100%;
     color: #fff;
 }
 
@@ -264,7 +266,7 @@ img {
         }
 
     .about-container {
-        max-width: 768px;
+        width: 768px;
     }   
 
     .about-subtitle {
