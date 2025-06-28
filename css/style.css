@@ -44,7 +44,11 @@ img {
     background-image: 
         url("../images/about/about_mob.jpg");
         margin: 0 auto;
-        padding: 64px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 64px 0 64px 0;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; 
@@ -180,7 +184,7 @@ img {
     .section-about {
         background-image: 
             url("../images/about/about_tablet.jpg");
-        padding: 80px 0;
+            padding: 80px 0 80px 0;
     }
     
     @media screen and (min-resolution: 2x) {
@@ -249,7 +253,7 @@ img {
     .section-about {
         background-image: 
             url("../images/about/about_desk.jpg");
-        padding: 112px 0;
+        padding: 112px 0 96px 0;
     }
     
         @media screen and (min-resolution: 2x) {
@@ -259,9 +263,12 @@ img {
             }
         }
 
+    .about-container {
+        max-width: 768px;
+    }   
+
     .about-subtitle {
         font-size: 56px;
-        max-width: 629px;
     }  
 
     .advantages-title {
