@@ -1,10 +1,3 @@
-/* reset 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}*/
-
 body {
     font-family: 'Roboto', sans-serif;
     color:  #030a06;
@@ -49,7 +42,7 @@ img {
 /* about */
 .section-about {
     background-image: 
-        url(/images/about/about_mob.jpg);
+        url("../images/about/about_mob.jpg");
         margin: 0 auto;
         padding: 64px 0;
         background-repeat: no-repeat;
@@ -60,7 +53,7 @@ img {
 @media screen and (min-resolution: 2x) {
     .section-about {
         background-image: 
-            url(/images/about/about_mob@2x.jpg);
+            url("../images/about/about_mob@2x.jpg");
     }
 }
 
@@ -186,14 +179,14 @@ img {
 
     .section-about {
         background-image: 
-            url(/images/about/about_tablet.jpg);
+            url("../images/about/about_tablet.jpg");
         padding: 80px 0;
     }
     
     @media screen and (min-resolution: 2x) {
         .section-about {
             background-image: 
-                url(/images/about/about_tablet@2x.jpg);
+                url("../images/about/about_tablet@2x.jpg");
         }
     }
 
@@ -255,14 +248,14 @@ img {
 
     .section-about {
         background-image: 
-            url(/images/about/about_desk.jpg);
+            url("../images/about/about_desk.jpg");
         padding: 112px 0;
     }
     
         @media screen and (min-resolution: 2x) {
             .section-about {
                 background-image: 
-                    url(/images/about/about_desk@2x.jpg);
+                    url("../images/about/about_desk@2x.jpg");
             }
         }
 
